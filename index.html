@@ -30,13 +30,66 @@
             max-width: 800px;
             height: 450px;
         }
+        /* 样式用于设置五行四列的表格 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px; /* 表格和视频之间的间距 */
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to My Video Page</h1>
+        <h1>EXPERIMENTS WITH VIDEO(4 Collisions/12 Reports)</h1>
+         <!-- 五行四列的表格 -->
+         <table>
+            <thead>
+                <tr>
+                    <th>Num.Collision</th>
+                    <th>Start Time</th>
+                    <th>Collision Time</th>
+                    <th>End Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Collision 1</td>
+                    <td>1:36</td>
+                    <td>1:58</td>
+                    <td>2:12</td>
+                </tr>
+                <tr>
+                    <td>Collision 2</td>
+                    <td>4:53</td>
+                    <td>5:14</td>
+                    <td>5:20</td>
+                </tr>
+                <tr>
+                    <td>Collision 3</td>
+                    <td>7:22</td>
+                    <td>7:45</td>
+                    <td>7:51</td>
+                </tr>
+                <tr>
+                    <td>Collision 4</td>
+                    <td>8:34</td>
+                    <td>8:54</td>
+                    <td>9:01</td>
+                </tr>
+            </tbody>
+        </table>
         <div class="video">
-            <h2>Video 1</h2>
+            <h2>Video</h2>
             <!-- YouTube 视频嵌入 -->
             <iframe width="560" height="315" src="https://www.youtube.com/embed/lz3DyM40UYQ?si=7cfNkD4nx7d0Ed_j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
     </div>
